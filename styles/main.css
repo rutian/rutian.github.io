@@ -11,15 +11,32 @@
   --UV:     #5f4b8b; /* ultraviolet     */
   --sea:    #195190; /* turkish sea     */
   --moon:   #4087A6; /* blue moon       */
+
+  /* widths */
+  --containerWidthMonitor: 900;
 }
 
-a{
-  color: var(--cgreen)!important;
+/* Large Monitor */
+@media only screen and (min-width: 1200px) {
+    .ui.container {
+      width: var(--containerWidthMonitor);
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .ui.grid.container {
+      width: calc( var(--containerWidthMonitor) +  2rem ) !important;
+    }
+    .ui.relaxed.grid.container {
+      width: calc( var(--containerWidthMonitor) +  3rem ) !important;
+    }
+    .ui.very.relaxed.grid.container {
+      width: calc( var(--containerWidthMonitor)  +  5rem ) !important;
+    }
 }
 
-a:hover{
-  color: var(--UV) !important;
-}
+a{ color: var(--cgreen)!important; }
+
+a:hover{ color: var(--UV) !important; }
 
 /*icon, navigation for pagination */
 a i {
@@ -40,6 +57,22 @@ p {
 
 p strong{
   font-weight: 500 !important;
+}
+
+p.projectName{
+    font-family: var(--sanSerifFont) !important;
+    font-weight: 400 !important;
+    color: var(--cgreen) !important;
+    font-size:1.2rem;
+    margin-top:.3rem;
+}
+
+p.projectNameSmall{
+    font-family: var(--sanSerifFont) !important;
+    font-weight: 400 !important;
+    color: var(--cgreen) !important;
+    font-size:1.1rem;
+    margin-top:.2rem;
 }
 
 /*header stuff*/

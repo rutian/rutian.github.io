@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<div class="ui large text vertical menu">
-  <div class="item">Rundong Tian</div>
-  <div class="item"> <h4 class="ui header">HCI Researcher, Shaper Tools</h4></div>
-  <div class="item"> <h4 class="ui header">rutian [at] berkeley [dot] edu</h4></div>
+<div class="ui hidden divider"></div>
+<div class="ui hidden divider"></div>
+<div class="ui hidden divider"></div>
+<div class="text ui container">
+    <div class="ui large text vertical menu">
+    <div class="item"> <h4 class="ui header">HCI Researcher, Shaper Tools</h4></div>
+    <div class="item"> <h4 class="ui header">rutian [at] berkeley [dot] edu</h4></div>
+    </div>
 </div>
 
 

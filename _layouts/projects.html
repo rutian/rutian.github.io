@@ -4,75 +4,71 @@
 
 {% include header.html %}
 
-<div class="ui text container">
+<div class="ui container">
 
-<h2 class="ui dividing header">Digital Fabrication</h2>
-<div class="ui stackable vertically divided grid">
-  <div class="two column row">
+    <h2 class="ui dividing header">Digital Fabrication</h2>
+    <div class="ui stackable vertically divided grid">
+        <div class="three column row">
 
-      <div class="column">
-        <a href={{ "projects/TBW" | absolute_url }} class="ui image">
-          <img src={{ "media/projects/orange.jpg" | absolute_url }}>
-          Turn-by-Wire, UIST 2019 
-        </a>
-       </div>
+            <div class="column">
+                <a href={{ "projects/adroid" | absolute_url }} class="ui image">
+                    <img src={{ "media/projects/adroidTemp.jpg" | absolute_url }}>
+                    <p class="projectName"> Adroid, UIST 2021 </p>
+                </a>
+            </div>
 
-      <div class="column">
-        <a href={{ "projects/MS" | absolute_url }} class="ui image">
-          <img src={{ "media/projects/woodroubo.jpg" | absolute_url }}>
-          What wood you make, CHI 2018 
-        </a>
-      </div>
-  </div> <!--END two column row -->
-</div>
+            <div class="column">
+                <a href={{ "projects/TBW" | absolute_url }} class="ui image">
+                    <img src={{ "media/projects/orange.jpg" | absolute_url }}>
+                    <p class="projectName"> Turn-by-Wire, UIST 2019 </p>
+                </a>
+            </div>
 
-<h2 class="ui dividing header">Citizen Science</h2>
-<div class="ui stackable vertically divided grid">
-  <div class="two column row">
-  
-      <div class="column">
-        
-        <a href={{ "projects/mypartRedux" | absolute_url }} class="ui image">
-          <img src={{ "media/projects/exploded.jpg" | absolute_url }}>
-          Mypart Redux, 2017
-        </a>
-      </div>
+            <div class="column">
+                <a href={{ "projects/MS" | absolute_url }} class="ui image">
+                    <img src={{ "media/projects/woodroubo.jpg" | absolute_url }}>
+                    <p class="projectName"> MatchSticks, CHI 2018 </p>
+                </a>
+            </div>
+        </div>
+        <!--END two column row -->
+    </div>
 
-      <div class="column">
+    <h2 class="ui dividing header">Citizen Science</h2>
+    <div class="ui stackable vertically divided grid">
+        <div class="three column row">
 
-        <a href={{ "projects/projects/mypart" | absolute_url }} class="ui image">
-          <img src={{ "media/mypart.jpg" | absolute_url }}>
-          MyPart, CHI 2016 
-        </a>
-        <br> 
-       </div>
-  
-      <div class="column">
-        
-        <a href={{ "projects/sensoryTriptych" | absolute_url }} class="ui image">
-          <img src={{ "media/projects/sensory.jpg" | absolute_url }}>
-           Sensory Triptych, UIST 2014
-        </a>
-        <br>
+            <div class="column">
+                <a href={{ "projects/mypartRedux" | absolute_url }} class="ui image">
+                    <img src={{ "media/projects/exploded.jpg" | absolute_url }}>
+                    <p class="projectName"> Mypart Redux, 2017</p>
+                </a>
+            </div>
 
-      </div>
+            <div class="column">
+                <a href={{ "projects/projects/mypart" | absolute_url }} class="ui image">
+                    <img src={{ "media/mypart.jpg" | absolute_url }}>
+                    <p class="projectName"> MyPart, CHI 2016</p>
+                </a>
+            </div>
 
-  </div> <!-- end two column row -->
+            <div class="column">
+                <a href={{ "projects/sensoryTriptych" | absolute_url }} class="ui image">
+                    <img src={{ "media/projects/sensory.jpg" | absolute_url }}>
+                    <p class="projectName"> Sensory Triptych, UIST 2014 </p>
+                </a>
+            </div>
 
-</div> <!-- end stackable header -->
+        </div> <!-- end two column row -->
+    </div> <!-- end stackable header -->
 
-<div class="ui hidden divider"></div>
-<div class="ui hidden divider"></div>
-
-
-
+    <div class="ui hidden divider"></div>
 
 </div> <!-- end ui text container -->
 {% include footer.html %}
 
-
 <script>
-$( document ).ready(function() {
-  $(".kevinProject").addClass( "active" );
-});
+    $(document).ready(function () {
+        $(".kevinProject").addClass("active");
+    });
 </script>
