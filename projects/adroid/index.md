@@ -24,6 +24,16 @@ Eric Paulos
 **Publication**<br>
 [Adroid: Augmenting Hands-on Making with a Collaborative Robot](https://doi.org/10.1145/3472749.3474749){:target="_blank"}, In the Proceedings of the 34th Annual ACM Symposium on User Interface Software and Technology 
 
-### Teaser video
-<div class="ui embed" data-source="youtube" data-id="x-zAx3TsZjo"> </div>
+<div class="ui grid">
+  <div class="eight wide column"> 
+    <h3 class="ui header"> Teaser Video</h3>
+    <div class="ui embed" data-source="youtube" data-id="x-zAx3TsZjo"> </div> 
+  </div>
+  <div class="eight wide column">
+    <h3 class="ui header"> Longer Video</h3>
+    <div class="ui embed" data-source="youtube" data-id="BKZopeNAvsY"> </div>
+  </div>
+</div>
 
+### Conference Presentation
+<div class="ui embed" data-source="youtube" data-id="jICf8EcOr7U"> </div>
